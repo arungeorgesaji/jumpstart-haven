@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://cjw13sf3li7wn"]
+
+[node name="WinScreen_tscn" type="Node2D" unique_id=827792477]
+
+[node name="Control" type="Control" parent="." unique_id=1728281626]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -1.0
+offset_top = 1.0
+offset_right = 1128.0
+offset_bottom = 647.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=676701406]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -2.0
+offset_right = 1152.0
+offset_bottom = 647.0
+alignment = 1
+
+[node name="Label" type="Label" parent="Control/VBoxContainer" unique_id=725785581]
+layout_mode = 2
+text = "More content coming soon!!!"
+horizontal_alignment = 1
